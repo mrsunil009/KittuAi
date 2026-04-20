@@ -1,24 +1,75 @@
+# KITTU AI - .gitignore
+
+# Dependencies
+
+node_modules/
+
+# Environment Variables
+
+.env
+.env.*
+
+# Build / Production
+
+dist/
+build/
+.next/
+out/
+
+# Cache
+
+.cache/
+.parcel-cache/
+.nyc_output/
+
+# Coverage
+
+coverage/
+*.lcov
+
 # Logs
-logs
+
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
-yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Editor Settings
+
+.vscode/
+.idea/
+
+# TypeScript
+
+*.tsbuildinfo
+
+# Runtime Files
+
+pids/
+*.pid
+*.pid.lock
+
+# Temporary Files
+
 *.local
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
-.DS_Store
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
+# Uploads (optional)
+
+uploads/
+
+# Data Files (optional)
+
+*.csv
+*.pdf
+
+# SSH Keys (IMPORTANT)
+
+sunil
+sunil.pub
