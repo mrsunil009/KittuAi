@@ -621,7 +621,7 @@ app.post("/api/signup", async (req, res) => {
 
 });
 
-app.get("/", (req, res) => {
+app.post("/", (req, res) => {
   res.send("KittuAI Backend is Running 🚀");
 }); 
 
