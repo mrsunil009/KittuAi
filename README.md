@@ -1,39 +1,35 @@
 # KittuAI 🤖
 
-KittuAI is an AI-powered chatbot that provides smart and fast responses to users using modern web technologies.
+KittuAI is an AI-powered chatbot with smart response features, provider fallback system, and modern UI utilities for better user experience.
 
 ---
 
 ## ✨ Features
-- 💬 Chat with AI in real-time
+
+- 💬 Conversational AI chat (Gemini → OpenAI → Echo fallback)
 - ⚡ Fast and responsive UI
 - 🧠 Smart AI responses
-- 📱 Fully responsive design
+- 🌐 Smart website detection (open YouTube / Google directly)
+- 📝 Summarize responses into key points
+- ✨ Clean and format text output
+- 🙂 Sentiment & tone analysis
+- 🏷️ Auto keyword & tag generation
+- 📄 Export response to TXT or PDF
+- 👤 User profile system (name, avatar, session handling)
 
 ---
 
 ## 🛠️ Tech Stack
-- Frontend: React.js
-- Backend: Node.js, Express.js
-- AI: OpenAI API
-- Database: MongoDB (if used)
+
+- Frontend: React + Vite
+- Backend: Node.js + Express
+- AI APIs: Gemini / OpenAI (fallback system)
+- Styling: Modern UI (custom CSS)
 
 ---
 
-## 📸 Screenshots
-(Add your project screenshots here)
-
----
-
-## 🌐 Live Demo
-(Add your deployed link here)
-
----
-
-## ⚙️ Installation
+## 🚀 Quick Start
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/kittuAI.git
-cd kittuAI
 npm install
-npm start
+npm run dev
